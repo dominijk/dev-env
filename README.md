@@ -5,6 +5,11 @@ Development environment for python data analysis. The development stack is
 - PDM as virtual environment manager
 - duckdb for managing data for standalone projects 
 
+This was built after installation of:
+- PostgresApp
+- QGIS
+- dbeaver
+
 ## Initial setup
 I use homebrew for the initial setup to provide access to different python versions and install software pacakages.
 
