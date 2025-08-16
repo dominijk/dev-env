@@ -23,10 +23,12 @@ brew install python@3.9
 brew install python@3.10
 brew install python@3.11
 brew install python@3.12
+brew install python@3.13
 ```
 3. We will use PDM to manage virtual environments all take care of package compatability `brew install pdm`
-4. Github for versioning `brew install --cask github`
-5. VS Code `brew install --cask visual-studio-code` 
+4. We amove to `uv` for virtual environments `brew install uv`
+5. Github for versioning `brew install --cask github`
+6. VS Code `brew install --cask visual-studio-code` 
 
 ## Setting up a new environemnt in VS Code 
 Within VS Code bottom panel you will see a terminal option, the defauly language is zsh, for the below add a new session with bash. Running this command will setup a new virtual environment with pdm, you'll be asked questions on the base python version and other aspects. You should see the various python@3.xx version you installed earlier
@@ -39,3 +41,4 @@ If you're running a notebook with an existing environment the command is `pdm in
 - Set up a hidden .env file with your various passwords for connections so you never accidentally commit those to the cloud
 - Add dbeaver for database GUI `brew install --cask dbeaver-community` or the pro version `brew install --cask dbeaver-enterprise` or work within VS Code
 - Add extensions for VS Code (Git graph, Tabnine or Co-pilot for code assistance, AWS Tookit, Excel viewer, ident-rainbow) 
+
