@@ -2,7 +2,8 @@
 Development environment for python data analysis. The development stack is 
 - Github for version control
 - VS Code for IDE (interactive development environment) with most data exploration through notebooks
-- PDM as virtual environment manager
+- ~~PDM as virtual environment manager~~
+- UV as virtual environment manager
 - duckdb for managing data for standalone projects 
 
 This was built after installation of:
